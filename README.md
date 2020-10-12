@@ -1,8 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# cmpe131proj_fe
 
-## Available Scripts
+This is the frontend webapp supported by the backend api.
 
-In the project directory, you can run:
+## Requirments
+
+1. Node **v14.4.0**
+
+2. Git (I recommend using Git bash on windows)
+
+3. IDE (I recommend using vscode with eslint and npm extenstions)
+
+4. Web Browser
+
+## Getting Started
+
+1. Clone the git repository into your project directory (you may need to provide credentials to commit)
+
+```
+git clone https://github.com/christiandaga/cmpe131proj_fe.git
+```
+
+## Install
+
+`npm i`
+
+`npm audit fix`
+
+## Commands
 
 ### `npm start`
 
@@ -42,27 +66,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
