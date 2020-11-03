@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style type = "text/css">
+            body {
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+            }
+            
+        </style>
+       <div>
+           <img src = "views\header.jpg" class="center"></img>
+       </div>
+    </head>
+    <body>
+        
+        <p> Welcome, %= name %,to your account summary page. </p>
+
+        <h2> Checking accounts</h2>
+        <div>
+            <table>
+                <tr>
+                    <td>Account</td>
+                    <td>Number</td>
+                    <td>Balance</td>
+                    <td>Display transaction history?</td>
+                </tr>
+                <tr>
+                    <td>%= checkingname %</td>
+                    <td>%= checkingnumber %</td>
+                    <td>%= checkingbalance %</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2> Saving accounts</h2>
+        <div>
+            <table>
+                <tr>
+                    <td>Account</td>
+                    <td>Number</td>
+                    <td>Balance</td>
+                    <td>Display transaction history?</td>
+                </tr>
+                <tr>
+                    <td>%= savingname %</td>
+                    <td>%= savingnumber %</td>
+                    <td>%= savingbalance %</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2> Transaction history</h2>
+        <div>
+            <table>
+                <tr>
+                    <td>Date</td>
+                    <td>Type</td>
+                    <td>Amount</td>
+                    <td>Status</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="btn-group">
+            <button>OPEN NEW ACCOUNT</button>
+            <button>DEPOSIT</button>
+            <button>TRNASFER FUNDS</button>
+        </div>
+    </body>
+</html>
