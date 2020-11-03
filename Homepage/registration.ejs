@@ -1,8 +1,6 @@
 <html>
-  <head>
-  <meta charset="UTF-8">
-  <title>Registration</title>
-  <script type="text/javascript">
+<title>W3.CSS Template</title>
+<script type="text/javascript">
     $(document).ready( () => {
 
         $( "#registration" ).submit( (event) => {
@@ -33,97 +31,82 @@
         });
     });
 </script>
-  </head>
-  <style type="text/css">
-  h1 {
-    text-align: center;
-  }
-  
-  div1 {
-    text-align: center;
-  }
-  </style>
-  
-  <body>
-      <div class="content">
-          <blockquote class="postcontent restore">
-              <div
-                  style='background: url("hands-against-building.jpg"); padding: 30px; margin: auto; border: px solid; border-radius: px px;'>
-                  <br>
-                  <div
-                      style="background: #FEFEFE; margin: auto; padding: 4px; width: 740px; border: 15px solid #a6abb1; border-radius: px px;">
-                      <div
-                          style="background: rgba(226, 228, 231, 0.9); width: 700px; padding: 20px; line-height: 1.5; letter-spacing: 1.5px; border-bottom: 3px solid #8B9199; margin: auto; border: px solid; border-radius: px px;">
-                          <div style="width: 600px; margin: auto;">
-                              <div id="font-def" style="display: table">
-                                  <div id="font-def-child" style="display: table-cell">		
-                                    <div style="text-align: center;">River Bank 
-                                      <br></div>																								
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+	body,
+	h1 {
+		font-family: "Raleway", sans-serif
+	}
 
-                      <div>
-                        <form id="registration" method="post">
-                            <fieldset >
-                                <legend>Register</legend>
-                                <table>
-                                    <tr>
-                                        <td>Email</td>
-                                        <td><input type="text" name="email" size="30"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Username</td>
-                                        <td><input type="text" name="username" size="30"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Password</td>
-                                        <td><input type="password" name="password" size="30"></td>
-                                    </tr>
-                                        <tr>
-                                        <td colspan="2" align="center"> <input type="submit" name="btn_submit" value="Create account"></td>
-                                    </tr>
-                                </table>
-                            </fieldset>
-                        </form>
-                      </div>
+	body,html {
+		height: 100%
+	}
 
-                      <div
-                          style="background: #f5f5f5; width: 710px; font-size: 16px; margin: auto; color: #24262a; padding: 15px; font-family: tahoma; border: px solid; border-radius: px px;">
-                          <div style="width: 600px; margin: auto;">
-                              <br> <br>
-                              <div
-                                  style="background: #c9e1e7; margin: auto; width: 579px; border: 1px solid #c9e1e7; padding: 3px; text-align: center;; border: px solid; border-radius: px px;">
-                              </div>
-                              <br>
-  
-  
-                              <div style="text-align: center;">▼MENU</div>
-  
-                              <label for="projects">Navigation:</label> <select
-                                  name="Projects" onchange="location = this.href;">
-                                  <a value=" ">Click to view</option>
-                                  <a class="nav-item nav-link active" href="index">Home page</option>
-                                  <a class="nav-item nav-link" href="login">Login</option>
-                              </select>
-  
-                          </div>
-                      </div>
-                  </div>
-                  <br>
-              </div>
-              <div
-                  style="background: rgba(226, 228, 231, 0.9); width: 720px; padding: 10px; letter-spacing: 1.5px; margin: auto; color: #2c3035; border-top: 3px solid #8B9199; font-size: 10px; font-family: verdana; margin: auto; text-align: center; border: px solid; border-radius: px px;">
-                  By: Group 2 | CMPE 131 | Source of Knowledge: <a
-                      href="https://www.w3schools.com/" target="_blank">w3schools</a><br>
-              </div>
-          </blockquote>
-      </div>
-      <br>
-      <blockquote></blockquote>
-      <div></div>
-      <blockquote></blockquote>
-      <div></div>
-  </body>
-  </html>
+	.bgimg {
+		background-image: url('hands-against-building.jpg');
+		alt: "Hands against building image";
+		min-height: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+</style>
+
+<body>
+
+	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+		<div class="w3-display-topleft w3-padding-large w3-xlarge">
+			River Bank
+		</div>
+		<div class="w3-display-middle">
+			<h1 class="w3-jumbo w3-animate-top">SMOOTH FLOWING STORAGE</h1>
+			<hr class="w3-border-grey" style="margin:auto;width:40%">
+			<p>
+				</n>
+			</p>
+			<form action="registration.html">
+				<fieldset>
+						  <legend>Registration</legend>
+						<table>
+								<tr>
+										<td>Username</td>
+										<td><input type="text" id="username"
+												name="username"></td>
+								</tr>
+								<tr>
+										<td>Password</td>
+										<td><input type="password" id="pass" name="pass"></td>
+								</tr>
+								<tr>
+										<td>Name</td>
+										<td><input type="text" id="name" name="name"></td>
+								</tr>
+								<tr>
+										<td>Email</td>
+										<td><input type="text" id="email" name="email"></td>
+								</tr>
+								<tr>
+										<td colspan="2" align="center"><input
+												type="submit" name="btn_submit"
+												value="Register"></td>
+								</tr>
+						</table>
+				</fieldset>
+		</form>
+		<div style="text-align: center;">?MENU</div>
+
+														<label for="projects">Navigation:</label> <select
+																name="Projects" onchange="location = this.value;">
+																<option value=" ">Click to view</option>
+																<option value="Index.html">Index</option>
+																<option value="login.ejs">Login</option>
+																<option value="page3.html">page 3</option>
+																<option value="page4.html">page 4</option>
+														</select>
+  </div>
+</div>
+
+</body>
+</html>
