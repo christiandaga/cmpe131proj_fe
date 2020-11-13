@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(hands-against-building.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    alt: "hands against building image";
+    background-attachment: fixed;
+    }
+h1{
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: conter;
+ }
+.deposit{
+    color: wheat;
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+        }
+header{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 32px;
+    text-decoration: teal;
+      }
