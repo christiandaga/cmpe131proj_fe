@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<header> River Bank </header>
+<meta charset="utf-8">
+<link rel="stylesheet" href="depositcss.css">
+<title>Deposit Page</title>
+</head>
+<body>
+    <h1>Deposit</h1>
+   <form>
+<div class="deposit">
+    <p>
+<label for="Deposit"> Deposit To</label>
+<input type="text" name="name" id="name" required>
+</p>
+<p>
+<label for="Amount"> Amount: </label>
+<input type="text" name="number" id="number" required>
+</p>
+</div>
+<button type="submit"> submit</button>
+<button type="reset">reset</button>
+   </form>
+
+</body>
+</html>
